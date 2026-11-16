@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Run outputs (scans, plans, logs, reports belong to the machine, not the repo)
+pc-cleanup-performance-runs/
+runs/
+*.dryrun.json
+delete-dryrun-*.json
+delete-apply-*.json
+*.log
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
